@@ -32,3 +32,42 @@ export const imageData = [
     { url: "https://img.freepik.com/free-photo/spaghetti-with-tomato-olives_2829-14052.jpg?w=996&t=st=1700468812~exp=1700469412~hmac=0a6a27f055d24b0c8e118b36e310c1310b289c85fac7ff03bdc634e61d5717a8" },
     { url: "https://img.freepik.com/free-photo/delicious-food-table_23-2150857814.jpg?t=st=1700468850~exp=1700472450~hmac=6acd057d45fa4563d551af9bfa1dbfbfbea8cebf18ce978b2eae271dc3cacf47&w=1060" },
 ];
+
+export const chefDetails = [
+  {
+    id: 1,
+    chefName: "Jone Doe",
+    image: "https://i.guim.co.uk/img/media/3cfd4dc25e5f1dbc378ab3adc817a1081264a5df/0_224_6720_4032/master/6720.jpg?width=620&dpr=2&s=none",
+    experience: {
+      hotel: "Taj Hotel, Mumbai",
+      year: 4,
+    },
+  },
+  {
+    id: 2,
+    chefName: "Jeson Roy",
+    image: "https://i.guim.co.uk/img/media/3cfd4dc25e5f1dbc378ab3adc817a1081264a5df/0_224_6720_4032/master/6720.jpg?width=620&dpr=2&s=none",
+    experience: {
+      hotel: "Taj Homtel, Mumbai",
+      year: 4,
+    },
+  },
+  {
+    id: 3,
+    chefName: "Sophie Smith",
+    image: "https://randomuser.me/api/portraits/women/1.jpg",
+    experience: {
+      hotel: "Grand Plaza Hotel, New York",
+      year: 5,
+    },
+  },
+  {
+    id: 4,
+    chefName: "Alex Johnson",
+    image: "https://randomuser.me/api/portraits/men/2.jpg",
+    experience: {
+      hotel: "Ritz-Carlton, Paris",
+      year: 7,
+    },
+  }
+];

@@ -18,6 +18,7 @@ import {
 } from '@chakra-ui/react'
 import { HamburgerIcon, CloseIcon } from '@chakra-ui/icons'
 import { coreUiData } from '../../Data/Core Ui/UiData'
+import { Link } from 'react-router-dom'
 
 
 
@@ -27,8 +28,7 @@ const NavLink = (props) => {
   const { children } = props
 
   return (
-    <Box
-      as="a"
+    <Link
       px={2}
       py={1}
       rounded={'md'}
@@ -36,9 +36,9 @@ const NavLink = (props) => {
         textDecoration: 'none',
         bg: useColorModeValue('white', 'white'),
       }}
-      href={'#'}>
+      >
       {children}
-    </Box>
+    </Link>
   )
 }
 

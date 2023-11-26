@@ -1,44 +1,8 @@
 import React from 'react';
 import { Box, Image, Text, Button, Flex, Heading } from '@chakra-ui/react';
+import { chefDetails } from '../../../Data/HomeData/HomeData';
 
-const chefDetails = [
-  {
-    id: 1,
-    chefName: "Jone Doe",
-    image: "https://i.guim.co.uk/img/media/3cfd4dc25e5f1dbc378ab3adc817a1081264a5df/0_224_6720_4032/master/6720.jpg?width=620&dpr=2&s=none",
-    experience: {
-      hotel: "Taj Hotel, Mumbai",
-      year: 4,
-    },
-  },
-  {
-    id: 2,
-    chefName: "Jeson Roy",
-    image: "https://i.guim.co.uk/img/media/3cfd4dc25e5f1dbc378ab3adc817a1081264a5df/0_224_6720_4032/master/6720.jpg?width=620&dpr=2&s=none",
-    experience: {
-      hotel: "Taj Homtel, Mumbai",
-      year: 4,
-    },
-  },
-  {
-    id: 3,
-    chefName: "Sophie Smith",
-    image: "https://randomuser.me/api/portraits/women/1.jpg",
-    experience: {
-      hotel: "Grand Plaza Hotel, New York",
-      year: 5,
-    },
-  },
-  {
-    id: 4,
-    chefName: "Alex Johnson",
-    image: "https://randomuser.me/api/portraits/men/2.jpg",
-    experience: {
-      hotel: "Ritz-Carlton, Paris",
-      year: 7,
-    },
-  }
-];
+
 
 const Chef = () => {
   return (
